@@ -1,687 +1,1091 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trabble- Tour, Travle & Travel Agency Template</title>
     <!-- Links -->
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/reset.css">
-    <link rel="stylesheet" href="../assets/css/reponsive.css">
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/reponsive.css" />
 
     <!-- CDN -->
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="main">
-        <header id="header">
-            <div class="container">
-                <div class="logo">
-                    <a href="../public/index.html">
-                        <img src="../assets/images/logo/logo.png" alt="">
-                    </a>
-                </div>
-                <div class="nav-bar">
-                    <ul class="menu">
-                        <li class="menu-item">
-                            <a href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">
-                                Package List
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">
-                                Hotels
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">
-                                Flights
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">
-                                Blog
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">
-                                Pages
-                            </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </header>
+      <header id="header">
+        <div class="container">
+          <div class="logo">
+            <a href="../public/index.html">
+              <img src="../assets/images/logo/logo.png" alt="" />
+            </a>
+          </div>
+          <div class="nav-bar">
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="#"> Home </a>
+              </li>
+              <li class="menu-item">
+                <a href="#"> Package List </a>
+              </li>
+              <li class="menu-item">
+                <a href="#"> Hotels </a>
+              </li>
+              <li class="menu-item">
+                <a href="#"> Flights </a>
+              </li>
+              <li class="menu-item">
+                <a href="#"> Blog </a>
+              </li>
+              <li class="menu-item">
+                <a href="#"> Pages </a>
+              </li>
+              <li class="menu-item">
+                <a href="#"> Contact </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
 
-        <section class="slider-area">
-            <div class="slider_wrapper">
-                <div id="slider_1">
-                    <ul>
-                        <li>
-                            <div class="silder_overlay"></div>
-                            <img src="../assets/images/bg/slider-back-01.jpg" alt="">
-                            <div class="title-line-1">
-                                Open Your Eyes To
-                            </div>
-                            <div class="title-line-2">
-                                The Hidden World
-                            </div>
-                            <div class="header-p1">
-                                Lorem ipsum dolor sit amet consectetur adipiscing elit proin leo leo ornare nec
-                            </div>
-                            <div class="header-p2">
-                                vulputate tempus velit nam id purus tellus hendrerit mi dapibus.
-                            </div>
-                            <div class="header-btn">
-                                Start Tour
-                            </div>
-                        </li>
-                        <li>
-                            <div class="silder_overlay"></div>
-                            <img src="../assets/images/bg/slider-back-04.jpg" alt="">
-                            <div class="title-line-1">
-                                Open Your Eyes To
-                            </div>
-                            <div class="title-line-2">
-                                The Hidden World
-                            </div>
-                            <div class="header-p1">
-                                Lorem ipsum dolor sit amet consectetur adipiscing elit proin leo leo ornare nec
-                            </div>
-                            <div class="header-p2">
-                                vulputate tempus velit nam id purus tellus hendrerit mi dapibus.
-                            </div>
-                            <div class="header-btn">
-                                Start Tour
-                            </div>
-                        </li>
-                    </ul>
+      <section class="slider-area">
+        <div class="slider_wrapper">
+          <div id="slider_1">
+            <ul>
+              <li>
+                <div class="silder_overlay"></div>
+                <img src="../assets/images/bg/slider-back-01.jpg" alt="" />
+                <div class="title-line-1">Open Your Eyes To</div>
+                <div class="title-line-2">The Hidden World</div>
+                <div class="header-p1">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit proin
+                  leo leo ornare nec
                 </div>
-            </div>
-        </section>
+                <div class="header-p2">
+                  vulputate tempus velit nam id purus tellus hendrerit mi
+                  dapibus.
+                </div>
+                <div class="header-btn">Start Tour</div>
+              </li>
+              <li>
+                <div class="silder_overlay"></div>
+                <img src="../assets/images/bg/slider-back-04.jpg" alt="" />
+                <div class="title-line-1">Open Your Eyes To</div>
+                <div class="title-line-2">The Hidden World</div>
+                <div class="header-p1">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit proin
+                  leo leo ornare nec
+                </div>
+                <div class="header-p2">
+                  vulputate tempus velit nam id purus tellus hendrerit mi
+                  dapibus.
+                </div>
+                <div class="header-btn">Start Tour</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-        <section class="tab-search-area">
-            <div class="container">
-                <div class="tab_wrapper">
-                    <div class="tab_menu">
-                        <ul class="tab_menu_layout">
-                            <li class="tab_menu_item">
-                                <a href="#">
-                                    Hotels
-                                    <img src="../assets/images/icons/hotel.png" alt="">
-                                </a>
-                            </li>
-                            <li class="tab_menu_item">
-                                <a href="#">
-                                    Tour
-                                    <img src="../assets/images/icons/tour.png" alt="">
-                                </a>
-                            </li>
-                            <li class="tab_menu_item">
-                                <a href="#">
-                                    Flights
-                                    <img src="../assets/images/icons/fly.png" alt="">
-                                </a>
-                            </li>
-                            <li class="tab_menu_item">
-                                <a href="#">
-                                    Vihicles
-                                    <img src="../assets/images/icons/car.png" alt="">
-                                </a>
-                            </li>
-                            <li class="tab_menu_item">
-                                <a href="#">
-                                    Ship
-                                    <img src="../assets/images/icons/ship.png" alt="">
-                                </a>
-                            </li>
-                        </ul>
+      <section class="tab-search-area">
+        <div class="container">
+          <div class="tab_wrapper">
+            <div class="tab_menu">
+              <ul class="tab_menu_layout">
+                <li class="tab_menu_item">
+                  <a href="#">
+                    Hotels
+                    <img src="../assets/images/icons/hotel.png" alt="" />
+                  </a>
+                </li>
+                <li class="tab_menu_item">
+                  <a href="#">
+                    Tour
+                    <img src="../assets/images/icons/tour.png" alt="" />
+                  </a>
+                </li>
+                <li class="tab_menu_item">
+                  <a href="#">
+                    Flights
+                    <img src="../assets/images/icons/fly.png" alt="" />
+                  </a>
+                </li>
+                <li class="tab_menu_item">
+                  <a href="#">
+                    Vihicles
+                    <img src="../assets/images/icons/car.png" alt="" />
+                  </a>
+                </li>
+                <li class="tab_menu_item">
+                  <a href="#">
+                    Ship
+                    <img src="../assets/images/icons/ship.png" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="tab_content">
+              <div class="hotel-form">
+                <form action="#">
+                  <div class="hotel-input-2">
+                    <input
+                      type="text"
+                      placeholder="Type Keyword"
+                      class="input-keyword"
+                    />
+                  </div>
+                  <div class="hotel-input-4">
+                    <div class="custom-select">
+                      <select>
+                        <option value="0">Select a Location:</option>
+                        <option value="1">America</option>
+                        <option value="2">Canada</option>
+                        <option value="3">London</option>
+                        <option value="4">Paris</option>
+                        <option value="5">Banglades</option>
+                      </select>
                     </div>
-                    <div class="tab_content">
-                        <div class="hotel-form">
-                            <form action="#">
-                                <div class="hotel-input-2">
-                                    <input type="text" placeholder="Type Keyword" class="input-keyword">
-                                </div>
-                                <div class="hotel-input-4">
-                                    <div class="custom-select">
-
-                                        <select>
-                                            <option value="0">Select a Location:</option>
-                                            <option value="1">America</option>
-                                            <option value="2">Canada</option>
-                                            <option value="3">London</option>
-                                            <option value="4">Paris</option>
-                                            <option value="5">Banglades</option>
-                                        </select>
-
-                                    </div>
-                                </div>
-                                <div class="hotel-input-1">
-                                    <p>Date: <input type="text" id="datepicker" placeholder="Check-in"></p>
-                                </div>
-                                <div class="hotel-input-1">
-                                    <p>Date: <input type="text" id="datepicker2" placeholder="Check-out"></p>
-                                </div>
-                                <div class="hotel-input-1">
-                                    <input type="text" placeholder="Guest">
-                                </div>
-                                <div class="hotel-input-1">
-                                    <input type="text" placeholder="Budget">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="tour-form">
-                            <form action="#">
-                                <div class="tour-input-4">
-                                    <input type="text" placeholder="Type Keyword" class="input-keyword">
-                                </div>
-                                <div class="tour-input-4">
-                                    <div class="custom-select">
-
-                                        <select>
-                                            <option value="0">Select a Location:</option>
-                                            <option value="1">America</option>
-                                            <option value="2">Canada</option>
-                                            <option value="3">London</option>
-                                            <option value="4">Paris</option>
-                                            <option value="5">Banglades</option>
-                                        </select>
-
-                                    </div>
-                                </div>
-                                <div class="tour-input-4">
-                                    <p>Date: <input type="text" id="datepicker" placeholder="Check-in Date"></p>
-                                </div>
-
-                                <div class="tour-input-4">
-                                    <input type="text" placeholder="Number of Guest">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="flights-form">
-                            <form action="#">
-                                <div class="flights-input-4">
-                                    <input type="text" placeholder="Type Keyword" class="input-keyword">
-                                </div>
-                                <div class="flights-input-4">
-                                    <div class="custom-select">
-
-                                        <select>
-                                            <option value="0">Select a Location:</option>
-                                            <option value="1">America</option>
-                                            <option value="2">Canada</option>
-                                            <option value="3">London</option>
-                                            <option value="4">Paris</option>
-                                            <option value="5">Banglades</option>
-                                        </select>
-
-                                    </div>
-                                </div>
-                                <div class="flights-input-4">
-                                    <p>Date: <input type="text" id="datepicker" placeholder="Check-in Date"></p>
-                                </div>
-
-                                <div class="flights-input-4">
-                                    <input type="text" placeholder="Number of Guest">
-                                </div>
-                                <div class="btn-search">
-                                    <button type="submit">Search</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="popular-packages">
-            <div class="container">
-                <div class="title">
-                    <h2>Our most popular packges</h2>
+                  </div>
+                  <div class="hotel-input-1">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam at ipsum at ligula vestibulum
-                        sodales Sed luctus orci vel nibh aliquam laoreet Aenean accumsan
+                      Date:
+                      <input
+                        type="text"
+                        id="datepicker"
+                        placeholder="Check-in"
+                      />
                     </p>
-                </div>
-                <div class="packages-content">
-                    <div class="single-package">
-                        <div class="package-image">
-                            <a href="#">
-                                <img src="../assets/images/packages/1.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="package-content">
-                            <h3>Dubai – All Stunning Places</h3>
-                            <p>
-                                4 Days, 5 Nights Start From
-                                <span>$500</span>
-                            </p>
-                        </div>
-                        <div class="package-action">
-                            <ul class="ct-action">
-                                <li>
-                                    <a href="#" class="booking-btn">
-                                        Book Now
-                                    </a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="single-package">
-                        <div class="package-image">
-                            <a href="#">
-                                <img src="../assets/images/packages/2.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="package-content">
-                            <h3>Thailand – All Stunning Places</h3>
-                            <p>
-                                4 Days, 5 Nights Start From
-                                <span>$500</span>
-                            </p>
-                        </div>
-                        <div class="package-action">
-                            <ul class="ct-action">
-                                <li>
-                                    <a href="#" class="booking-btn">
-                                        Book Now
-                                    </a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="single-package">
-                        <div class="package-image">
-                            <a href="#">
-                                <img src="../assets/images/packages/3.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="package-content">
-                            <h3>England – All Stunning Places</h3>
-                            <p>
-                                4 Days, 5 Nights Start From
-                                <span>$500</span>
-                            </p>
-                        </div>
-                        <div class="package-action">
-                            <ul class="ct-action">
-                                <li>
-                                    <a href="#" class="booking-btn">
-                                        Book Now
-                                    </a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="single-package">
-                        <div class="package-image">
-                            <a href="#">
-                                <img src="../assets/images/packages/4.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="package-content">
-                            <h3>Italy – All Stunning Places</h3>
-                            <p>
-                                4 Days, 5 Nights Start From
-                                <span>$500</span>
-                            </p>
-                        </div>
-                        <div class="package-action">
-                            <ul class="ct-action">
-                                <li>
-                                    <a href="#" class="booking-btn">
-                                        Book Now
-                                    </a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="single-package">
-                        <div class="package-image">
-                            <a href="#">
-                                <img src="../assets/images/packages/5.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="package-content">
-                            <h3>Brazil – All Stunning Places</h3>
-                            <p>
-                                4 Days, 5 Nights Start From
-                                <span>$500</span>
-                            </p>
-                        </div>
-                        <div class="package-action">
-                            <ul class="ct-action">
-                                <li>
-                                    <a href="#" class="booking-btn">
-                                        Book Now
-                                    </a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="single-package">
-                        <div class="package-image">
-                            <a href="#">
-                                <img src="../assets/images/packages/6.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="package-content">
-                            <h3>India – All Stunning Places</h3>
-                            <p>
-                                4 Days, 5 Nights Start From
-                                <span>$500</span>
-                            </p>
-                        </div>
-                        <div class="package-action">
-                            <ul class="ct-action">
-                                <li>
-                                    <a href="#" class="booking-btn">
-                                        Book Now
-                                    </a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="countdown">
-            <div class="container">
-                <div class="countdown-title">
-                    <h3>
-                        Special Tour in May, Discover
-                        <span>Thailand</span>
-                        for 50
-                        <br>
-                        Customers with
-                        <span>Discount 30%</span>
-                    </h3>
-                </div>
-                <div class="count-timer">
-                    <p>It’s limited seating! Hurry up</p>
-                    <div class="timer">
-                        <ul class="timer-layout">
-                            <li>
-                                <div class="days">
-                                    <span class="time-count">0</span>
-                                    <p>Days</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="hours">
-                                    <span class="time-count">0</span>
-                                    <p>Hour</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="min">
-                                    <span class="time-count">00</span>
-                                    <p>Min</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="sec">
-                                    <span class="time-count">00</span>
-                                    <p>Sec</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="buy-now">
-                    <button class="buy-now-btn">Buy Now</button>
-                </div>
-            </div>
-        </section>
-
-        <section id="destination">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Most popular destination</h2>
+                  </div>
+                  <div class="hotel-input-1">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam at ipsum at ligula vestibulum
-                        sodales Sed luctus orci vel nibh aliquam laoreet Aenean accumsan
+                      Date:
+                      <input
+                        type="text"
+                        id="datepicker2"
+                        placeholder="Check-out"
+                      />
                     </p>
-                </div>
-                <div class="destination-slider">
-                    <div class="single-destination">
-                        <div class="destination-image">
-                            <a href="#">
-                                <img src="../assets/images/destination/1.jpg" alt="">
-                            </a>
-                            <a href="#" class="read-btn">Read More</a>
-                        </div>
-                        <div class="destination-content">
-                            <a href="#">
-                                <i class="fa fa-map-marker"></i>
-                                Sydney, Australia
-                                <h4>Opera House <span>3 Tours</span></h4>
-                            </a>
-                        </div>
+                  </div>
+                  <div class="hotel-input-1">
+                    <input type="text" placeholder="Guest" />
+                  </div>
+                  <div class="hotel-input-1">
+                    <input type="text" placeholder="Budget" />
+                  </div>
+                </form>
+              </div>
+              <div class="tour-form">
+                <form action="#">
+                  <div class="tour-input-4">
+                    <input
+                      type="text"
+                      placeholder="Type Keyword"
+                      class="input-keyword"
+                    />
+                  </div>
+                  <div class="tour-input-4">
+                    <div class="custom-select">
+                      <select>
+                        <option value="0">Select a Location:</option>
+                        <option value="1">America</option>
+                        <option value="2">Canada</option>
+                        <option value="3">London</option>
+                        <option value="4">Paris</option>
+                        <option value="5">Banglades</option>
+                      </select>
                     </div>
-                    <div class="single-destination">
-                        <div class="destination-image">
-                            <a href="#">
-                                <img src="../assets/images/destination/2.jpg" alt="">
-                            </a>
-                            <a href="#" class="read-btn">Read More</a>
-                        </div>
-                        <div class="destination-content">
-                            <a href="#">
-                                <i class="fa fa-map-marker"></i>
-                                London, Eangland
-                                <h4>Tower Bridge<span>5 Tours</span></h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="single-destination">
-                        <div class="destination-image">
-                            <a href="#">
-                                <img src="../assets/images/destination/3.jpg" alt="">
-                            </a>
-                            <a href="#" class="read-btn">Read More</a>
-                        </div>
-                        <div class="destination-content">
-                            <a href="#">
-                                <i class="fa fa-map-marker"></i>
-                                Paris, France
-                                <h4>Eiffel Tower<span>4 Tours</span></h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="single-destination">
-                        <div class="destination-image">
-                            <a href="#">
-                                <img src="../assets/images/destination/4.jpg" alt="">
-                            </a>
-                            <a href="#" class="read-btn">Read More</a>
-                        </div>
-                        <div class="destination-content">
-                            <a href="#">
-                                <i class="fa fa-map-marker"></i>
-                                New york, USA
-                                <h4>Statue Of Liberty<span>3 Tours</span></h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="single-destination">
-                        <div class="destination-image">
-                            <a href="#">
-                                <img src="../assets/images/destination/5.jpg" alt="">
-                            </a>
-                            <a href="#" class="read-btn">Read More</a>
-                        </div>
-                        <div class="destination-content">
-                            <a href="#">
-                                <i class="fa fa-map-marker"></i>
-                                Agra, India
-                                <h4>Tajmahal<span>5 Tours</span></h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                  </div>
+                  <div class="tour-input-4">
+                    <p>
+                      Date:
+                      <input
+                        type="text"
+                        id="datepicker"
+                        placeholder="Check-in Date"
+                      />
+                    </p>
+                  </div>
 
-        <section id="travlestar">
-            <div class="container">
-                <div class="section-title-white">
-                    <h2>Why Choose travlestar</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam at ipsum at ligula vestibulum
-                        sodales Sed luctus orci vel nibh aliquam laoreet Aenean accumsan </p>
-                </div>
-                <div class="travel-content">
-                    <div class="single-travel">
-                        <div class="media">
-                            <div class="media-left">
-                                <span>01.</span>
-                            </div>
-                            <div class="media-body">
-                                <h4>Travel Arrangements</h4>
-                                <p>Lorem ipsum dolor sit amet consect adiu piscing elit sed diam nonum euismo tincidunt
-                                    ut.</p>
-                            </div>
-                        </div>
+                  <div class="tour-input-4">
+                    <input type="text" placeholder="Number of Guest" />
+                  </div>
+                </form>
+              </div>
+              <div class="flights-form">
+                <form action="#">
+                  <div class="flights-input-4">
+                    <input
+                      type="text"
+                      placeholder="Type Keyword"
+                      class="input-keyword"
+                    />
+                  </div>
+                  <div class="flights-input-4">
+                    <div class="custom-select">
+                      <select>
+                        <option value="0">Select a Location:</option>
+                        <option value="1">America</option>
+                        <option value="2">Canada</option>
+                        <option value="3">London</option>
+                        <option value="4">Paris</option>
+                        <option value="5">Banglades</option>
+                      </select>
                     </div>
-                    <div class="single-travel">
-                        <div class="media">
-                            <div class="media-left">
-                                <span>02.</span>
-                            </div>
-                            <div class="media-body">
-                                <h4>Cheap Flights</h4>
-                                <p>Lorem ipsum dolor sit amet consect adiu piscing elit sed diam nonum euismo tincidunt
-                                    ut.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-travel">
-                        <div class="media">
-                            <div class="media-left">
-                                <span>03.</span>
-                            </div>
-                            <div class="media-body">
-                                <h4>Hand-picked tours</h4>
-                                <p>Lorem ipsum dolor sit amet consect adiu piscing elit sed diam nonum euismo tincidunt
-                                    ut.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-travel">
-                        <div class="media">
-                            <div class="media-left">
-                                <span>04.</span>
-                            </div>
-                            <div class="media-body">
-                                <h4>Privet Guide</h4>
-                                <p>Lorem ipsum dolor sit amet consect adiu piscing elit sed diam nonum euismo tincidunt
-                                    ut.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-travel">
-                        <div class="media">
-                            <div class="media-left">
-                                <span>05.</span>
-                            </div>
-                            <div class="media-body">
-                                <h4>Special Activities</h4>
-                                <p>Lorem ipsum dolor sit amet consect adiu piscing elit sed diam nonum euismo tincidunt
-                                    ut.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-travel">
-                        <div class="media">
-                            <div class="media-left">
-                                <span>06.</span>
-                            </div>
-                            <div class="media-body">
-                                <h4>Best Price Guarantee</h4>
-                                <p>Lorem ipsum dolor sit amet consect adiu piscing elit sed diam nonum euismo tincidunt
-                                    ut.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                  </div>
+                  <div class="flights-input-4">
+                    <p>
+                      Date:
+                      <input
+                        type="text"
+                        id="datepicker"
+                        placeholder="Check-in Date"
+                      />
+                    </p>
+                  </div>
 
-        <section id="guide">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Travel guide and Expert Advice</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam at ipsum at ligula vestibulum
-                        sodales Sed luctus orci vel nibh aliquam laoreet Aenean accumsan </p>
-                </div>
-                
+                  <div class="flights-input-4">
+                    <input type="text" placeholder="Number of Guest" />
+                  </div>
+                  <div class="btn-search">
+                    <button type="submit">Search</button>
+                  </div>
+                </form>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="popular-packages">
+        <div class="container">
+          <div class="title">
+            <h2>Our most popular packges</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam at
+              ipsum at ligula vestibulum sodales Sed luctus orci vel nibh
+              aliquam laoreet Aenean accumsan
+            </p>
+          </div>
+          <div class="packages">
+            <div class="single-package">
+              <div class="package-image">
+                <a href="#">
+                  <img src="../assets/images/packages/1.jpg" alt="" />
+                </a>
+              </div>
+              <div class="package-content">
+                <h3>Dubai – All Stunning Places</h3>
+                <p>
+                  4 Days, 5 Nights Start From
+                  <span>$500</span>
+                </p>
+              </div>
+              <div class="package-action">
+                <ul class="ct-action">
+                  <li>
+                    <a href="#" class="booking-btn"> Book Now </a>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="single-package">
+              <div class="package-image">
+                <a href="#">
+                  <img src="../assets/images/packages/2.jpg" alt="" />
+                </a>
+              </div>
+              <div class="package-content">
+                <h3>Thailand – All Stunning Places</h3>
+                <p>
+                  4 Days, 5 Nights Start From
+                  <span>$500</span>
+                </p>
+              </div>
+              <div class="package-action">
+                <ul class="ct-action">
+                  <li>
+                    <a href="#" class="booking-btn"> Book Now </a>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="single-package">
+              <div class="package-image">
+                <a href="#">
+                  <img src="../assets/images/packages/3.jpg" alt="" />
+                </a>
+              </div>
+              <div class="package-content">
+                <h3>England – All Stunning Places</h3>
+                <p>
+                  4 Days, 5 Nights Start From
+                  <span>$500</span>
+                </p>
+              </div>
+              <div class="package-action">
+                <ul class="ct-action">
+                  <li>
+                    <a href="#" class="booking-btn"> Book Now </a>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="single-package">
+              <div class="package-image">
+                <a href="#">
+                  <img src="../assets/images/packages/4.jpg" alt="" />
+                </a>
+              </div>
+              <div class="package-content">
+                <h3>Italy – All Stunning Places</h3>
+                <p>
+                  4 Days, 5 Nights Start From
+                  <span>$500</span>
+                </p>
+              </div>
+              <div class="package-action">
+                <ul class="ct-action">
+                  <li>
+                    <a href="#" class="booking-btn"> Book Now </a>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="single-package">
+              <div class="package-image">
+                <a href="#">
+                  <img src="../assets/images/packages/5.jpg" alt="" />
+                </a>
+              </div>
+              <div class="package-content">
+                <h3>Brazil – All Stunning Places</h3>
+                <p>
+                  4 Days, 5 Nights Start From
+                  <span>$500</span>
+                </p>
+              </div>
+              <div class="package-action">
+                <ul class="ct-action">
+                  <li>
+                    <a href="#" class="booking-btn"> Book Now </a>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="single-package">
+              <div class="package-image">
+                <a href="#">
+                  <img src="../assets/images/packages/6.jpg" alt="" />
+                </a>
+              </div>
+              <div class="package-content">
+                <h3>India – All Stunning Places</h3>
+                <p>
+                  4 Days, 5 Nights Start From
+                  <span>$500</span>
+                </p>
+              </div>
+              <div class="package-action">
+                <ul class="ct-action">
+                  <li>
+                    <a href="#" class="booking-btn"> Book Now </a>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="countdown">
+        <div class="container">
+          <div class="countdown-title">
+            <h3>
+              Special Tour in May, Discover
+              <span>Thailand</span>
+              for 50
+              <br />
+              Customers with
+              <span>Discount 30%</span>
+            </h3>
+          </div>
+          <div class="count-timer">
+            <p>It’s limited seating! Hurry up</p>
+            <div class="timer">
+              <ul class="timer-layout">
+                <li>
+                  <div class="days">
+                    <span class="time-count">0</span>
+                    <p>Days</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="hours">
+                    <span class="time-count">0</span>
+                    <p>Hour</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="min">
+                    <span class="time-count">00</span>
+                    <p>Min</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="sec">
+                    <span class="time-count">00</span>
+                    <p>Sec</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="buy-now">
+            <button class="buy-now-btn">Buy Now</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="destination">
+        <div class="container">
+          <div class="section-title">
+            <h2>Most popular destination</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam at
+              ipsum at ligula vestibulum sodales Sed luctus orci vel nibh
+              aliquam laoreet Aenean accumsan
+            </p>
+          </div>
+          <div class="destination-slider">
+            <div class="single-destination">
+              <div class="destination-image">
+                <a href="#">
+                  <img src="../assets/images/destination/1.jpg" alt="" />
+                </a>
+                <a href="#" class="read-btn">Read More</a>
+              </div>
+              <div class="destination-content">
+                <a href="#">
+                  <i class="fa fa-map-marker"></i>
+                  Sydney, Australia
+                  <h4>Opera House <span>3 Tours</span></h4>
+                </a>
+              </div>
+            </div>
+            <div class="single-destination">
+              <div class="destination-image">
+                <a href="#">
+                  <img src="../assets/images/destination/2.jpg" alt="" />
+                </a>
+                <a href="#" class="read-btn">Read More</a>
+              </div>
+              <div class="destination-content">
+                <a href="#">
+                  <i class="fa fa-map-marker"></i>
+                  London, Eangland
+                  <h4>Tower Bridge<span>5 Tours</span></h4>
+                </a>
+              </div>
+            </div>
+            <div class="single-destination">
+              <div class="destination-image">
+                <a href="#">
+                  <img src="../assets/images/destination/3.jpg" alt="" />
+                </a>
+                <a href="#" class="read-btn">Read More</a>
+              </div>
+              <div class="destination-content">
+                <a href="#">
+                  <i class="fa fa-map-marker"></i>
+                  Paris, France
+                  <h4>Eiffel Tower<span>4 Tours</span></h4>
+                </a>
+              </div>
+            </div>
+            <div class="single-destination">
+              <div class="destination-image">
+                <a href="#">
+                  <img src="../assets/images/destination/4.jpg" alt="" />
+                </a>
+                <a href="#" class="read-btn">Read More</a>
+              </div>
+              <div class="destination-content">
+                <a href="#">
+                  <i class="fa fa-map-marker"></i>
+                  New york, USA
+                  <h4>Statue Of Liberty<span>3 Tours</span></h4>
+                </a>
+              </div>
+            </div>
+            <div class="single-destination">
+              <div class="destination-image">
+                <a href="#">
+                  <img src="../assets/images/destination/5.jpg" alt="" />
+                </a>
+                <a href="#" class="read-btn">Read More</a>
+              </div>
+              <div class="destination-content">
+                <a href="#">
+                  <i class="fa fa-map-marker"></i>
+                  Agra, India
+                  <h4>Tajmahal<span>5 Tours</span></h4>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="travlestar">
+        <div class="container">
+          <div class="section-title-white">
+            <h2>Why Choose travlestar</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam at
+              ipsum at ligula vestibulum sodales Sed luctus orci vel nibh
+              aliquam laoreet Aenean accumsan
+            </p>
+          </div>
+          <div class="travels">
+            <div class="single-travel">
+              <div class="media">
+                <div class="media-left">
+                  <span>01.</span>
+                </div>
+                <div class="media-body">
+                  <h4>Travel Arrangements</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consect adiu piscing elit sed
+                    diam nonum euismo tincidunt ut.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="single-travel">
+              <div class="media">
+                <div class="media-left">
+                  <span>02.</span>
+                </div>
+                <div class="media-body">
+                  <h4>Cheap Flights</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consect adiu piscing elit sed
+                    diam nonum euismo tincidunt ut.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="single-travel">
+              <div class="media">
+                <div class="media-left">
+                  <span>03.</span>
+                </div>
+                <div class="media-body">
+                  <h4>Hand-picked tours</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consect adiu piscing elit sed
+                    diam nonum euismo tincidunt ut.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="single-travel">
+              <div class="media">
+                <div class="media-left">
+                  <span>04.</span>
+                </div>
+                <div class="media-body">
+                  <h4>Privet Guide</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consect adiu piscing elit sed
+                    diam nonum euismo tincidunt ut.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="single-travel">
+              <div class="media">
+                <div class="media-left">
+                  <span>05.</span>
+                </div>
+                <div class="media-body">
+                  <h4>Special Activities</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consect adiu piscing elit sed
+                    diam nonum euismo tincidunt ut.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="single-travel">
+              <div class="media">
+                <div class="media-left">
+                  <span>06.</span>
+                </div>
+                <div class="media-body">
+                  <h4>Best Price Guarantee</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consect adiu piscing elit sed
+                    diam nonum euismo tincidunt ut.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tranvel-blog">
+        <div class="container">
+          <div class="section-title">
+            <h2>Travel guide and Expert Advice</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam at
+              ipsum at ligula vestibulum sodales Sed luctus orci vel nibh
+              aliquam laoreet Aenean accumsan
+            </p>
+          </div>
+          <div class="blog-layout">
+            <div class="single-blog">
+              <div class="blog-image">
+                <a href="#">
+                  <img src="../assets/images/blog/1.jpg" alt="" />
+                </a>
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <div class="post-date">
+                    <span>
+                      <i class="fa fa-calendar"></i>
+                      12 Sep, 2018
+                    </span>
+                  </div>
+                  <ul class="post-social">
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-comments"></i>
+                        3
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="far fa-heart"></i>
+                        43
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="blog-post-content">
+                  <h4>Tips for taking a long-term trip with kids.</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consepctetur adipiscing elit
+                    Etiam at ipsum at ligula vestibulum sodales Sed luctus.
+                  </p>
+                  <a href="#">
+                    <span>
+                      Read More
+                      <i class="fa fa-angle-right"></i>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="single-blog">
+              <div class="blog-image">
+                <a href="#">
+                  <img src="../assets/images/blog/2.jpg" alt="" />
+                </a>
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <div class="post-date">
+                    <span>
+                      <i class="fa fa-calendar"></i>
+                      12 Aug, 2018
+                    </span>
+                  </div>
+                  <ul class="post-social">
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-comments"></i>
+                        3
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="far fa-heart"></i>
+                        43
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="blog-post-content">
+                  <h4>Tips for taking a long-term trip with kids.</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consepctetur adipiscing elit
+                    Etiam at ipsum at ligula vestibulum sodales Sed luctus.
+                  </p>
+                  <a href="#">
+                    <span>
+                      Read More
+                      <i class="fa fa-angle-right"></i>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="single-blog">
+              <div class="blog-image">
+                <a href="#">
+                  <img src="../assets/images/blog/3.jpg" alt="" />
+                </a>
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <div class="post-date">
+                    <span>
+                      <i class="fa fa-calendar"></i>
+                      12 Jul, 2018
+                    </span>
+                  </div>
+                  <ul class="post-social">
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-comments"></i>
+                        3
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="far fa-heart"></i>
+                        43
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="blog-post-content">
+                  <h4>Tips for taking a long-term trip with kids.</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consepctetur adipiscing elit
+                    Etiam at ipsum at ligula vestibulum sodales Sed luctus.
+                  </p>
+                  <a href="#">
+                    <span>
+                      Read More
+                      <i class="fa fa-angle-right"></i>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="client">
+        <div class="container">
+          <div class="section-title">
+            <h2>What travellers Say About Us</h2>
+          </div>
+          <div class="client-slider">
+            <div class="custom-image">
+              <div>
+                <img src="../assets/images/clients/1.jpg" alt="" />
+              </div>
+              <div>
+                <img src="../assets/images/clients/2.jpg" alt="" />
+              </div>
+              <div>
+                <img src="../assets/images/clients/3.jpg" alt="" />
+              </div>
+              <div>
+                <img src="../assets/images/clients/6.jpg" alt="" />
+              </div>
+            </div>
+            <div class="block-txt">
+              <div class="testimonial-message">
+                <div class="message">
+                  <p>
+                    Lorem ipsum dolor sit amet, consecteituer adipiscing eluit,
+                    sed diapm nonummy nibhu euismod tincidunt ut laoreet dolor
+                    you magna aliquam erat volutpat. Ut wisi enim adefra
+                    miniumyp veniam, quis nostrud exerci tation ullavolutpat.
+                  </p>
+                </div>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <div class="client-bio">
+                  <h4>Jhonthan Smith</h4>
+                  <span>London Trip Travelers</span>
+                </div>
+              </div>
+              <!-- client testimonial end -->
+
+              <div class="testimonial-message">
+                <div class="message">
+                  <p>
+                    Lorem ipsum dolor sit amet, consecteituer adipiscing eluit,
+                    sed diapm nonummy nibhu euismod tincidunt ut laoreet dolor
+                    you magna aliquam erat volutpat. Ut wisi enim adefra
+                    miniumyp veniam, quis nostrud.
+                  </p>
+                </div>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <div class="client-bio">
+                  <h4>Daniel Baci</h4>
+                  <span>Thailand Trip Travelers</span>
+                </div>
+              </div>
+              <!-- client testimonial end -->
+
+              <div class="testimonial-message">
+                <div class="message">
+                  <p>
+                    Lorem ipsum dolor sit amet, consecteituer adipiscing eluit,
+                    sed diapm nonummy nibhu euismod tincidunt ut laoreet dolor
+                    you magna aliquam erat volutpat. Ut wisi enim adefra
+                    miniumyp veniam, quis nostrud.
+                  </p>
+                </div>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <div class="client-bio">
+                  <h4>John Doe</h4>
+                  <span>USA Trip Travelers</span>
+                </div>
+              </div>
+              <!-- client testimonial end -->
+
+              <div class="testimonial-message">
+                <div class="message">
+                  <p>
+                    Lorem ipsum dolor sit amet, consecteituer adipiscing eluit,
+                    sed diapm nonummy nibhu euismod tincidunt ut laoreet dolor
+                    you magna aliquam erat volutpat. Ut wisi enim adefra
+                    miniumyp veniam, quis nostrud.
+                  </p>
+                </div>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <div class="client-bio">
+                  <h4>Jhonthan Smith</h4>
+                  <span>London Trip Travelers</span>
+                </div>
+              </div>
+              <!-- client testimonial end -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="incredible-places">
+        <div class="container">
+          <div class="section-title">
+            <h2>Incredible Places</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam at
+              ipsum at ligula vestibulum sodales Sed luctus orci vel nibh
+              aliquam laoreet Aenean accumsan
+            </p>
+          </div>
+          <div class="place-layout">
+            <div class="single-place">
+              <a href="#">
+                <img src="../assets/images/places/1 (1).jpg" alt="" />
+              </a>
+              <div class="place-info">
+                <h4>
+                  Place
+                  <span>Eiffel Tower</span>
+                </h4>
+                <h4>
+                  Caption by:
+                  <span>Michel Jusi</span>
+                </h4>
+              </div>
+            </div>
+            <div class="single-place">
+              <a href="#">
+                <img src="../assets/images/places/2.jpg" alt="" />
+              </a>
+              <div class="place-info">
+                <h4>
+                  Place
+                  <span>China Town</span>
+                </h4>
+                <h4>
+                  Caption by:
+                  <span>Daniel Baci</span>
+                </h4>
+              </div>
+            </div>
+            <div class="single-place">
+              <a href="#">
+                <img src="../assets/images/places/3.jpg" alt="" />
+              </a>
+              <div class="place-info">
+                <h4>
+                  Place
+                  <span>England Bridge</span>
+                </h4>
+                <h4>
+                  Caption by:
+                  <span>John Adam</span>
+                </h4>
+              </div>
+            </div>
+            <div class="single-place">
+              <a href="#">
+                <img src="../assets/images/places/4.jpg" alt="" />
+              </a>
+              <div class="place-info">
+                <h4>
+                  Place
+                  <span>Eiffel Tower</span>
+                </h4>
+                <h4>
+                  Caption by:
+                  <span>Michel Jusi</span>
+                </h4>
+              </div>
+            </div>
+            <div class="single-place">
+              <a href="#">
+                <img src="../assets/images/places/5.jpg" alt="" />
+              </a>
+              <div class="place-info">
+                <h4>
+                  Place
+                  <span>China Town</span>
+                </h4>
+                <h4>
+                  Caption by:
+                  <span>Daniel Baci</span>
+                </h4>
+              </div>
+            </div>
+            <div class="single-place">
+              <a href="#">
+                <img src="../assets/images/places/1 (1).jpg" alt="" />
+              </a>
+              <div class="place-info">
+                <h4>
+                  Place
+                  <span>England Bridge</span>
+                </h4>
+                <h4>
+                  Caption by:
+                  <span>John Adam</span>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="subcribe-area">
+        <div class="container">
+          <div class="section-title">
+            <h2>Join Our Subscribe List</h2>
+          </div>
+          <div class="subcribe-form">
+            <form action="#">
+              <div class="search-form">
+                <input
+                  type="text"
+                  name="search"
+                  id="search"
+                  placeholder="Enter Your Email To Subscribe"
+                  onblur="if(this.value==''){this.value='Enter Your Email To subscribe'}"
+                  onfocus="if(this.value=='Enter Your Email To subscribe'){this.value=''}"
+                />
+              </div>
+              <div class="search-btn">
+                  <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </div>
-</body>
-<script src="../assets/javascript/script.js"></script>
-
+  </body>
+  <script src="../assets/javascript/script.js"></script>
 </html>
